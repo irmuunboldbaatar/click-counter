@@ -3,7 +3,7 @@
 #button {
   width: 200px;
   height: 100px;
-  background-color: #6cf;
+  background-color: #fff;
   display: flex;
 
   justify-content: center;
@@ -13,11 +13,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  border: 2px solid #4ad;
+  border: 2px solid #aaa;
   border-radius: 12px;
 
   font-family: Verdana, Helvetica, sans-serif;
-  
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
 
 /* 1. Reset the button's default styles */
